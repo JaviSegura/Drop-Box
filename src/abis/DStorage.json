@@ -4561,10 +4561,66 @@
   },
   "networks": {
     "4": {
-      "events": {},
+      "events": {
+        "0x6e95bbaa37a5fdec42a312e049dea2fe6160ebe659214d3409b4f91f164c2f52": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "fileId",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "fileHash",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "fileSize",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "fileType",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "fileName",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "fileDescription",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "uploadTime",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "address payable",
+              "name": "uploader",
+              "type": "address"
+            }
+          ],
+          "name": "FileUploaded",
+          "type": "event"
+        }
+      },
       "links": {},
-      "address": "0x3207b0060D8EbE1346B8D0c511C8B8f34eA8593a",
-      "transactionHash": "0xae5ef56ac6842c87f0431b97867e59e26acee1129c77fbef2dafc726a8077c48"
+      "address": "0x33a67EC0712d94bdBB0e9C37FEb2F7bC08a304ff",
+      "transactionHash": "0xac88c5e497aef599b2a24db0f5672c750f7b51a49f02704a1af2108b92fd21a2"
     },
     "1603890166397": {
       "events": {
@@ -5051,8 +5107,8 @@
       "transactionHash": "0x27377f881244fbd16b845707b242391cc05d03396a852f7c8cb2139114abf172"
     }
   },
-  "schemaVersion": "3.4.2",
-  "updatedAt": "2022-04-06T00:49:54.965Z",
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2022-04-27T01:10:58.103Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
